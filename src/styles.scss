@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container,
+.top {
+  padding: 16px;
+}
+
+header {
+  margin-bottom: 16px;
+  border: 1px dashed #ccc;
+  padding: 16px 8px;
+}
+
+.first,
+.second {
+  padding: 32px 8px;
+  font-size: 18px;
+}
+
+.first {
+  border: 1px dashed red;
+  margin-bottom: 16px;
+}
+
+.second {
+  border: 1px dashed blue;
+}
